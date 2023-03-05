@@ -9,6 +9,7 @@ There are three top-level folders:
 1. `/app` - contains the front-end application
 2. `/contracts` - contains the solidity contract
 3. `/tests` - contains tests for the solidity contract
+4. `/server` - contains the back-end application
 
 ## Setup
 
@@ -24,3 +25,6 @@ Compile the contracts using `npx hardhat compile`. The artifacts will be placed 
 
 To run the front-end application run `npm start` from the `/app` directory. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+## Back-End
+
+Run the back-end application with this commant `node server/index.js` from the root project
